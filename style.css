@@ -166,6 +166,11 @@ input[type=text] {
 		position: static;
 	}
 
+	ul li {
+		width: 75%;
+    		word-wrap: break-word;
+	}
+
 	.todo-container {
 		position: relative;
 		bottom: 100px;
