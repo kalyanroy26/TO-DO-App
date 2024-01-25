@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-container">
+            <div class="title-container" >
+                <h2><img src="./images/notepad.png" alt="todo list" class="todo-icon" height="40">Todo List App</h2>
+                <input type="text" class="text-input" id="textInput" placeholder="Add Your Taks">
+                <button class="btn" id="submit" >Add</button>
+            </div>
+
+            <div class="tasks">
+                <h3><img src="./images/calendar.png" alt="today" height="20" class= "today-icon">Today's Task List</h3>
+                <ul id="task-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
