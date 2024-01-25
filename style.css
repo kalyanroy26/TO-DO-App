@@ -162,25 +162,32 @@ input[type=text] {
 
 @media screen and (max-width: 650px) {
 
-	.container {
-		position: static;
+	body {
+		overflow: hidden;
 	}
 
-	ul li {
-		width: 75%;
-    		word-wrap: break-word;
+	.container {
+		position: static;
+		height: 100vh;
 	}
 
 	.todo-container {
-		position: relative;
-		bottom: 100px;
+		overflow: auto;
 		width: 350px;
+		margin-top: 50px;
+		margin-bottom: 100px;
+
 	}
 
 	.title-container {
 		height: 200px;
 		font-size: 1.3rem;
 		text-align: center;
+	}
+
+	ul li {
+		width: 75%;
+		word-wrap: break-word;
 	}
 
 	.text-input {
